@@ -1,1 +1,300 @@
 # NAME: ➠USA
+# USBank.list
+# Shadowrocket Rule-Set: US Banks & Financial Institutions
+# Last Updated: 2026-04-17
+# Usage: RULE-SET,https://your-host/USBank.list,PROXY
+# Covers: Major national banks, regional banks, online banks,
+#         credit cards, brokerage/investment, payment services
+
+# ============================================================
+# BIG FOUR (Largest US Banks by Assets)
+# ============================================================
+
+# JPMorgan Chase
+DOMAIN-SUFFIX,chase.com
+DOMAIN-SUFFIX,jpmorgan.com
+DOMAIN-SUFFIX,jpmorganchase.com
+DOMAIN-SUFFIX,jpmorganfunds.com
+DOMAIN-SUFFIX,jpms.com
+DOMAIN,www.chase.com
+DOMAIN,login.chase.com
+DOMAIN,secure05a.chase.com
+DOMAIN,mobilebanking.chase.com
+
+# Bank of America
+DOMAIN-SUFFIX,bankofamerica.com
+DOMAIN-SUFFIX,bac.com
+DOMAIN-SUFFIX,bofa.com
+DOMAIN-SUFFIX,ml.com
+DOMAIN-SUFFIX,merrilledge.com
+DOMAIN-SUFFIX,merrilllynch.com
+DOMAIN,www.bankofamerica.com
+DOMAIN,secure.bankofamerica.com
+DOMAIN,online.bankofamerica.com
+
+# Wells Fargo
+DOMAIN-SUFFIX,wellsfargo.com
+DOMAIN-SUFFIX,wfadvisors.com
+DOMAIN-SUFFIX,wellsfargoadvisors.com
+DOMAIN-SUFFIX,wfmortgage.com
+DOMAIN,www.wellsfargo.com
+DOMAIN,connect.secure.wellsfargo.com
+
+# Citibank / Citigroup
+DOMAIN-SUFFIX,citi.com
+DOMAIN-SUFFIX,citibank.com
+DOMAIN-SUFFIX,citigroup.com
+DOMAIN-SUFFIX,citicards.com
+DOMAIN-SUFFIX,citimortgage.com
+DOMAIN-SUFFIX,online.citibank.com
+DOMAIN,www.citi.com
+DOMAIN,online.citi.com
+
+# ============================================================
+# LARGE NATIONAL BANKS
+# ============================================================
+
+# U.S. Bank / U.S. Bancorp
+DOMAIN-SUFFIX,usbank.com
+DOMAIN-SUFFIX,usbankcorp.com
+DOMAIN-SUFFIX,elavon.com
+DOMAIN,www.usbank.com
+DOMAIN,onlinebanking.usbank.com
+
+# Truist (BB&T + SunTrust merger)
+DOMAIN-SUFFIX,truist.com
+DOMAIN-SUFFIX,bbt.com
+DOMAIN-SUFFIX,suntrust.com
+DOMAIN-SUFFIX,lightstream.com
+DOMAIN,www.truist.com
+DOMAIN,online.truist.com
+
+# PNC Bank
+DOMAIN-SUFFIX,pnc.com
+DOMAIN-SUFFIX,pncbank.com
+DOMAIN-SUFFIX,pncmortgage.com
+DOMAIN,www.pnc.com
+DOMAIN,online.pnc.com
+
+# Capital One (merged with Discover 2025)
+DOMAIN-SUFFIX,capitalone.com
+DOMAIN-SUFFIX,capital1.com
+DOMAIN-SUFFIX,capitaloneinvesting.com
+DOMAIN,www.capitalone.com
+DOMAIN,secure.capitalone.com
+
+# Goldman Sachs / Marcus
+DOMAIN-SUFFIX,goldmansachs.com
+DOMAIN-SUFFIX,gs.com
+DOMAIN-SUFFIX,marcus.com
+DOMAIN-SUFFIX,marcusbygoldmansachs.com
+DOMAIN,www.goldmansachs.com
+DOMAIN,www.marcus.com
+
+# TD Bank (US division)
+DOMAIN-SUFFIX,tdbank.com
+DOMAIN-SUFFIX,td.com
+DOMAIN,www.tdbank.com
+DOMAIN,online.tdbank.com
+
+# Fifth Third Bank (acquired Comerica 2025)
+DOMAIN-SUFFIX,53.com
+DOMAIN-SUFFIX,fifththird.com
+DOMAIN-SUFFIX,comerica.com
+DOMAIN,www.53.com
+DOMAIN,www.fifththird.com
+
+# KeyBank / KeyCorp
+DOMAIN-SUFFIX,key.com
+DOMAIN-SUFFIX,keybank.com
+DOMAIN-SUFFIX,keybanksolutions.com
+DOMAIN,www.key.com
+
+# Huntington Bank (acquired Cadence Bank 2025)
+DOMAIN-SUFFIX,huntington.com
+DOMAIN-SUFFIX,huntingtonbank.com
+DOMAIN-SUFFIX,cadencebank.com
+DOMAIN,www.huntington.com
+
+# Regions Bank
+DOMAIN-SUFFIX,regions.com
+DOMAIN-SUFFIX,regionsbank.com
+DOMAIN,www.regions.com
+DOMAIN,online.regions.com
+
+# M&T Bank
+DOMAIN-SUFFIX,mtb.com
+DOMAIN-SUFFIX,mandtbank.com
+DOMAIN,www.mandtbank.com
+DOMAIN,online.mtb.com
+
+# Citizens Bank
+DOMAIN-SUFFIX,citizensbank.com
+DOMAIN-SUFFIX,citizens.com
+DOMAIN,www.citizensbank.com
+DOMAIN,online.citizensbank.com
+
+# Ally Bank
+DOMAIN-SUFFIX,ally.com
+DOMAIN-SUFFIX,allycreditcard.com
+DOMAIN,www.ally.com
+DOMAIN,secure.ally.com
+
+# American Express (banking)
+DOMAIN-SUFFIX,americanexpress.com
+DOMAIN-SUFFIX,amex.com
+DOMAIN-SUFFIX,aexp.com
+DOMAIN,www.americanexpress.com
+DOMAIN,online.americanexpress.com
+DOMAIN,global.americanexpress.com
+
+# Synchrony Bank
+DOMAIN-SUFFIX,synchronybank.com
+DOMAIN-SUFFIX,synchrony.com
+DOMAIN-SUFFIX,mysynchrony.com
+DOMAIN,www.synchronybank.com
+
+# Discover Bank (merged into Capital One 2025)
+DOMAIN-SUFFIX,discover.com
+DOMAIN-SUFFIX,discoverbank.com
+DOMAIN,www.discover.com
+DOMAIN,portal.discover.com
+
+# SVB (Silicon Valley Bank - now part of First Citizens)
+DOMAIN-SUFFIX,svb.com
+DOMAIN-SUFFIX,firstcitizens.com
+DOMAIN-SUFFIX,firstcitizensbancshares.com
+DOMAIN,www.svb.com
+
+# ============================================================
+# ONLINE / NEOBANKS
+# ============================================================
+
+# SoFi
+DOMAIN-SUFFIX,sofi.com
+DOMAIN-SUFFIX,sofibank.com
+DOMAIN,www.sofi.com
+DOMAIN,login.sofi.com
+
+# Chime
+DOMAIN-SUFFIX,chime.com
+DOMAIN-SUFFIX,chimebank.com
+DOMAIN,www.chime.com
+DOMAIN,app.chime.com
+
+# Varo Bank
+DOMAIN-SUFFIX,varomoney.com
+DOMAIN-SUFFIX,varobank.com
+DOMAIN,www.varomoney.com
+
+# Current
+DOMAIN-SUFFIX,current.com
+DOMAIN,www.current.com
+
+# Axos Bank
+DOMAIN-SUFFIX,axosbank.com
+DOMAIN-SUFFIX,axos.com
+DOMAIN,www.axosbank.com
+
+# LendingClub Bank
+DOMAIN-SUFFIX,lendingclub.com
+DOMAIN,www.lendingclub.com
+
+# ============================================================
+# CREDIT CARDS (standalone issuers)
+# ============================================================
+
+DOMAIN-SUFFIX,barclaysus.com
+DOMAIN-SUFFIX,barclaycardus.com
+DOMAIN-SUFFIX,barclays.com
+DOMAIN-SUFFIX,comenity.com
+DOMAIN-SUFFIX,comenitybank.com
+DOMAIN-SUFFIX,comenitynet.com
+DOMAIN-SUFFIX,bread.com
+DOMAIN-SUFFIX,breadfinancial.com
+DOMAIN-SUFFIX,navyfederal.org
+DOMAIN-SUFFIX,nfcu.org
+DOMAIN-SUFFIX,usaa.com
+DOMAIN-SUFFIX,usaabank.com
+DOMAIN-SUFFIX,pentagonfcu.org
+DOMAIN-SUFFIX,penfed.org
+
+# ============================================================
+# INVESTMENT / BROKERAGE (with banking services)
+# ============================================================
+
+# Charles Schwab
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,charlesschwab.com
+DOMAIN-SUFFIX,schwabbank.com
+DOMAIN,www.schwab.com
+DOMAIN,client.schwab.com
+
+# Fidelity
+DOMAIN-SUFFIX,fidelity.com
+DOMAIN-SUFFIX,fidelityinvestments.com
+DOMAIN-SUFFIX,netbenefits.com
+DOMAIN,www.fidelity.com
+DOMAIN,digital.fidelity.com
+
+# Vanguard
+DOMAIN-SUFFIX,vanguard.com
+DOMAIN-SUFFIX,vanguardinstitutional.com
+DOMAIN,www.vanguard.com
+DOMAIN,personal.vanguard.com
+
+# Morgan Stanley / E*TRADE
+DOMAIN-SUFFIX,morganstanley.com
+DOMAIN-SUFFIX,etrade.com
+DOMAIN-SUFFIX,ms.com
+DOMAIN,www.morganstanley.com
+DOMAIN,us.etrade.com
+
+# T. Rowe Price
+DOMAIN-SUFFIX,troweprice.com
+DOMAIN,www.troweprice.com
+
+# Edward Jones
+DOMAIN-SUFFIX,edwardjones.com
+DOMAIN,www.edwardjones.com
+
+# Robinhood
+DOMAIN-SUFFIX,robinhood.com
+DOMAIN,www.robinhood.com
+DOMAIN,invest.robinhood.com
+
+# ============================================================
+# PAYMENT / BANKING INFRASTRUCTURE
+# ============================================================
+
+# Zelle
+DOMAIN-SUFFIX,zellepay.com
+DOMAIN-SUFFIX,zelle.com
+DOMAIN,www.zellepay.com
+
+# Early Warning Services (Zelle backend)
+DOMAIN-SUFFIX,earlywarning.com
+
+# Plaid (bank connection service)
+DOMAIN-SUFFIX,plaid.com
+DOMAIN,cdn.plaid.com
+DOMAIN,production.plaid.com
+
+# Finicity (bank data)
+DOMAIN-SUFFIX,finicity.com
+DOMAIN-SUFFIX,mastercard.com
+
+# Stripe (business banking/payments)
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN,api.stripe.com
+DOMAIN,dashboard.stripe.com
+
+# ============================================================
+# FDIC / OCC / FEDERAL RESERVE (regulatory, useful for access)
+# ============================================================
+
+DOMAIN-SUFFIX,fdic.gov
+DOMAIN-SUFFIX,ffiec.gov
+DOMAIN-SUFFIX,occ.gov
+DOMAIN-SUFFIX,federalreserve.gov
