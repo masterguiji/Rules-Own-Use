@@ -27,6 +27,7 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/hea
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/Tencent/Tencent.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/XiaoMi/XiaoMi.list,DIRECT
 # PROXY-ULE-SET
+RULE-SET,https://raw.githubusercontent.com/masterguiji/Rules-Own-Use/refs/heads/main/USA-SS.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/Google/Google.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/Claude/Claude.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/HBO/HBO.list,PROXY
@@ -37,7 +38,6 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/hea
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/AppleTV/AppleTV.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/AppleProxy/AppleProxy.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/GlobalMedia/GlobalMedia.list,PROXY
-RULE-SET,https://raw.githubusercontent.com/masterguiji/Rules-Own-Use/refs/heads/main/USA-SS.list,PROXY
 # DOMAIN-SUFFIX
 DOMAIN-SUFFIX,dnsleaktest.com,PROXY
 DOMAIN-SUFFIX,dnsleak.com,PROXY
